@@ -62,8 +62,8 @@ div.contenitore1{
     margin: auto;
     display: flex;
     padding: 30px;
-
 }
+
 
 div.contenitore-testo{
     display: flex;
@@ -199,3 +199,35 @@ div.businessplans{
 
 /* Sezione 3 */
 
+.contenitore-sezione3{
+    margin: 0 auto;
+    display: flex;
+    padding: 100px;
+    gap: 40px;
+    width: 60%;
+}
+
+.sezione1-contenitore3{
+    flex-basis: calc(60%);
+}
+
+.sezione2-contenitore3{
+    flex-basis: calc(40%);
+    padding: 50px;
+
+}
+
+.sezione2-contenitore3>h3{
+    padding-bottom: 20px;
+}
+
+.sezione2-contenitore3>p{
+    padding-bottom: 20px;
+}
+
+.buttonpartner{
+    padding-bottom: 20px;
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+}
