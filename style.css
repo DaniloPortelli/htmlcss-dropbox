@@ -46,15 +46,16 @@ nav button{
 /* Sezione 1 */
 
 .section1{
-    background-color: #B4D0E6;
+    background-image: linear-gradient(#B4D0E6 85%, white 15%)
 }
 
 section h1{
     width: 80%;
     margin: auto;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
     padding: 30px;
+    font-size: 4.5rem;
 }
 
 div.contenitore1{
@@ -68,7 +69,7 @@ div.contenitore1{
 div.contenitore-testo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 40px;
     width: 45%;
 }
@@ -89,11 +90,16 @@ div.contenitore-testo{
 
 
 /* Sezione 2 */
+.sezione2{
+    width: 60%;
+    margin: 0 auto;
+}
+
 .h2-sezione2{
-    width: 80%;
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding: 40px;
+    font-size: 2rem;
 }
 
 div.radio{
@@ -105,7 +111,6 @@ div.radio{
 div.businessplans{
     display: flex;
     flex-direction: row;
-    width: 60%;
     margin: auto;
     justify-content: center;
 }
@@ -160,7 +165,6 @@ div.businessplans{
 
 .tabella2{
     border: solid gray 1px;
-    width: 60%;
     margin: 0 auto;
 }
 
@@ -231,3 +235,96 @@ div.businessplans{
     border: solid black 1px;
     padding: 10px;
 }
+
+
+/* Sezione 4 */
+.section4>h3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-block: 20px;
+}
+
+.contenitore-sezione4{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 1000px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.sections{
+    flex-basis: calc(100%/3 - 20px);
+
+}
+
+.sections>figure>img{
+    width: 100%;
+}
+
+.contenitore-sezione4>div>div>h3{
+    margin-block: 10px;
+}
+
+/* Sezione 5 */
+.contenitore-sezione5{
+    width: 60%;
+    margin: auto;
+    margin-block: 50px;
+}
+
+.contenitore5>h3{
+    margin-block: 50px;
+    font-size: 2.5rem;
+}
+
+/* Footer */
+
+footer{
+    background-color: #000000;
+    color: white;
+
+}
+
+.lastcontainer{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.container-footer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 80px;
+
+}
+
+.container-ul>ul{
+    line-height: 30px;
+}
+
+.container-ul>ul>li:first-child{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.hrfooter{
+    margin:auto;
+}
+
+footer hr{
+    width: 70px;
+
+}
+
+footer .language{
+    padding-top: 30px;
+}
+
